@@ -1,0 +1,1871 @@
+{
+	"name": "Standard AV VS ESET Endpoint Protection(EES+EDR)",
+	"version": "2.1",
+	"domain": "mitre-enterprise",
+	"description": "",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1119",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1020",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1116",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1043",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1196",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1196",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1094",
+			"tactic": "command-and-control",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1030",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1011",
+			"tactic": "exfiltration",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1052",
+			"tactic": "exfiltration",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1484",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1168",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1168",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1013",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1013",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1029",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1180",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1095",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1165",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1165",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1065",
+			"tactic": "command-and-control",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1047",
+			"tactic": "execution",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1084",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1015",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Accessibility Features file modified [A0304]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1015",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Accessibility Features file modified [A0304]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Account discovery via PowerShell [C1110a], Account Discovery [F1100], Dsquery was executed [A1100]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1096",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "ADS written by unpopular process [A0300], Process executed from ADS [A0417], Zone.Identifier deleted by unpopular process [A0302]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1103",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "AppInit_Dlls registry was modified [A0101]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1103",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "AppInit_Dlls registry was modified [A0101]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1182",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "AppInit_Dlls registry was modified [A0101]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1182",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "AppInit_Dlls registry was modified [A0101]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "lateral-movement",
+			"score": 0,
+			"color": "",
+			"comment": "Autorun.inf file was created/modified [A0301], Autorun.inf file was deleted [A0303], Process has started from removable drive [Z0401]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "initial-access",
+			"score": 0,
+			"color": "",
+			"comment": "Autorun.inf file was created/modified [A0301], Autorun.inf file was deleted [A0303], Process has started from removable drive [Z0401]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1107",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Autorun.inf file was deleted [A0303], File deletion via PowerShell [C0301a], File deletion via PowerShell [C0301b], RAR encrypts and deletes files [B0601]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "Bad extension - filecoders (ext. A - C) [C0607], Bad extension - filecoders (ext. D - L) [C0608], Bad extension - filecoders (ext. M - Z) [C0609], Bad extension - filecoders (ext. spec., num.) [C0606], Bad extension - filecoders (extension parts) [C0612], Encryption of files [B0602], File probably encrypted with filecoder [C0610], File used by DiskCryptor application has been written [C0618], File used by Win32/Diskcoder.C has been written [C0616], File used by Win32/Diskcoder.D has been written [C0617], File with extension used by Win32/Filecoder.BTCWare has been written [C0615], File with extension used by Win32/Filecoder.Crysis has been written [C0613], File with extension used by Win32/Filecoder.FS has been written [C0621], File with extension used by Win32/Filecoder.FV has been written [C0620], File with extension used by Win32/Filecoder.GandCrab has been written [C0605], File with extension used by Win32/Filecoder.LockedFile has been written [C0623], File with extension used by Win32/Filecoder.Locky has been written [C0602], File with extension used by Win32/Filecoder.STOP has been written [C0624], File with format used by Win32/Filecoder.NDT has been written [C0603], Filecoder behaviour [Z0601], MSIL/Filecoder.Samas clue has been detected [C0601], Ransomnote behavioral detection - filecoders [C0619], Ransomnote file was written - filecoders [C0611], RAR encrypts and deletes files [B0601], Suspicious file extension [C0622], Win32/Filecoder.WannaCryptor clue has been found [C0614]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1060",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Batch script started from Startup Folder [F0104], Common AutoStart registry modified by unpopular process [A0103], File modified in %startup% folder [A0127], Process started from Startup Folder [F0105]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1219",
+			"tactic": "command-and-control",
+			"score": 4,
+			"color": "",
+			"comment": "BeamYourScreen remote desktop application started [D0429], LogMeIn remote desktop application started [D0430], TeamViewer application started [D0426], Unpopular remote access/desktop application started [D0428], VNC (Ultra/Real/Tight) application started [D0427]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1176",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Browser Helper Objects registry modified by unpopular process [A0112], Chrome executing suspicious extension [B0703], Internet Explorer Extensions registry modified by unpopular process [A0700], Internet Explorer JavaScript profiler registry was modified [A0702], Internet Explorer UrlSearchHooks registry entry was modified [A0701]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1185",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "Browser Helper Objects registry modified by unpopular process [A0112], Internet Settings AutoConfigURL registry key has been modified [D0208], Internet Settings NLA Proxy registry key has been modified [D0209]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1130",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Certificate added into CERT ROOT [D0215]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1140",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Certutil with -decode parameter executed [D0425]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "command-and-control",
+			"score": 0,
+			"color": "",
+			"comment": "Certutil with -urlcache parameter executed [A0425], MS Office application has executed bitsadmin [A0805], MS Office application has executed certutil [A0804]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "lateral-movement",
+			"score": 0,
+			"color": "",
+			"comment": "Certutil with -urlcache parameter executed [A0425], MS Office application has executed bitsadmin [A0805], MS Office application has executed certutil [A0804]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Chrome renaming [B0702], cmd.exe executed under different name [B0404], cscript executed under different name [D0409], Hosts file location registry was modified [A0202], Non-System process with system process name has started [Z0400], PowerShell executed under different name [D0411], Process \"explorer.exe\" was executed from non-%WINDIR% folder [A0409], Process has started from Recycle Bin folder [A0412], rundll32 executed under different name [D0408], Startup folder location registry modified by unpopular process [A0219], Unpopular process from %TMP% folder executed svchost/explorer [D0403], wscript executed under different name [D0410]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1089",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Chrome updates disabling [B0701], Microsoft Office protected view was modified [B0801], Process Hacker application has been executed [C0402], Processes killing from commandline [B0401], Registry Tools (regedit.exe) were disabled [A0201a], Registry Tools (regedit.exe) were enabled [A0201b], Task Manager has been disabled [D0214], Windows Firewall disabled [A0223], Windows Firewall exceptions allowed [A0220], Windows Firewall rules manipulation [B0202]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1070",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Clearing event logs [B1001], Command to delete shadow copies has been executed [C0401], Deleting backup silently [B1005]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "Cmd.exe creates external network connection [A0511b], Cmd.exe creates internal network connection [A0511a], cmd.exe executed under different name [B0404], Cmd.exe executed with '/c' by unpopular process [A0400]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1485",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "Command to delete shadow copies has been executed [C0401], Deleting backup silently [B1005]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "Credential Providers registry modified by unpopular process [A0105], Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "Credential Providers registry modified by unpopular process [A0105], Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423], PromptOnSecureDesktop modified by unpopular process [A0218], Security Options: Force strong key protection for users key modified [A0213], Security Options: Interactive Logon Message for users modified [A0215], Security Options: Interactive Logon settings modified [A0214], Security Options: User Account Control - Elevate without prompt enabled for administrators [A0212d], Security Options: User Account Control - Prompt for consent enabled for administrators [A0212c], Security Options: User Account Control - Prompt for credentials enabled for users [A0212a], User Account Control disabling [B0201], User/group management from commandline [B1003]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Credential Providers registry modified by unpopular process [A0105], Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423], PromptOnSecureDesktop modified by unpopular process [A0218], Security Options: Force strong key protection for users key modified [A0213], Security Options: Interactive Logon Message for users modified [A0215], Security Options: Interactive Logon settings modified [A0214], Security Options: User Account Control - Elevate without prompt enabled for administrators [A0212d], Security Options: User Account Control - Prompt for consent enabled for administrators [A0212c], Security Options: User Account Control - Prompt for credentials enabled for users [A0212a], User Account Control disabling [B0201], User/group management from commandline [B1003]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1064",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "cscript executed under different name [D0409], Cscript.exe executed process [A0401], Explorer.exe executed script process [A0402], MS Office application has executed bitsadmin [A0805], MS Office application has executed certutil [A0804], MS Office application has invoked script interpreter [D0807], MS Office application has saved executable [D0806], Network connection from wscript.exe started from unpopular process [A0505a], Network connection from wscript.exe started from unpopular process [A0505], Process cscript.exe creates external network connection [A0500b], Process cscript.exe creates internal network connection [A0500a], Rundll32.exe executed javascript [F0405], Saving script file [Z0301], Suspicious script interpreter process tree - browsers [F0420a], Suspicious script interpreter process tree - Microsoft Office [F0420b], Suspicious script interpreter process tree - PDF readers [F0420c], wscript executed under different name [D0410], Wscript.exe executed process [A0415]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1064",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "cscript executed under different name [D0409], Cscript.exe executed process [A0401], Explorer.exe executed script process [A0402], MS Office application has executed bitsadmin [A0805], MS Office application has executed certutil [A0804], MS Office application has invoked script interpreter [D0807], MS Office application has saved executable [D0806], Network connection from wscript.exe started from unpopular process [A0505a], Network connection from wscript.exe started from unpopular process [A0505], Process cscript.exe creates external network connection [A0500b], Process cscript.exe creates internal network connection [A0500a], Rundll32.exe executed javascript [F0405], Saving script file [Z0301], Suspicious script interpreter process tree - browsers [F0420a], Suspicious script interpreter process tree - Microsoft Office [F0420b], Suspicious script interpreter process tree - PDF readers [F0420c], wscript executed under different name [D0410], Wscript.exe executed process [A0415]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1138",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Custom application compatibility shim file was created/modified [A0139], Custom application compatibility shim registry was modified [A0140], Sdbinst.exe tool executed [A0418]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1138",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Custom application compatibility shim file was created/modified [A0139], Custom application compatibility shim registry was modified [A0140], Sdbinst.exe tool executed [A0418]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1069",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Dsquery was executed [A1100], Permission groups discovery via PowerShell [C1108a], Permission groups discovery via PowerShell [C1108b], Permission Groups Discovery [F1102]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1482",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Dsquery was executed [A1100]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"score": 4,
+			"color": "",
+			"comment": "Dynamic DNS provider connection [A0506]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1022",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "Encryption of files [B0602], RAR encrypts and deletes files [B0601]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1189",
+			"tactic": "initial-access",
+			"score": 0,
+			"color": "",
+			"comment": "Exploit kit (Rig-v) - suspicious communication [B0505], Exploit kit (Sundown) - possible suspicious communication [B0506], IExplore tries to execute unpopular process from %TMP% directory [D0401], IExplorer tries to execute file form %TMP% thru regsvr32 trampoline [D0402]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1203",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "Exploit kit (Rig-v) - suspicious communication [B0505], Exploit kit (Sundown) - possible suspicious communication [B0506], IExplore tries to execute unpopular process from %TMP% directory [D0401], IExplorer tries to execute file form %TMP% thru regsvr32 trampoline [D0402], MS Office application has invoked script interpreter [D0807], MS Office application has saved executable [D0806], PDF Reader has invoked script interpreter [D0405], PDF Reader has saved executable [D0404], Process crash\\hang report has been added (some application crashed\\hanged) [D0322], Suspicious script interpreter process tree - browsers [F0420a], Suspicious script interpreter process tree - Microsoft Office [F0420b], Suspicious script interpreter process tree - PDF readers [F0420c]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1085",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "External network connection from rundll32.exe started from unpopular process [A0504], Internal network connection from rundll32.exe started from unpopular process [A0504a], rundll32 executed under different name [D0408], Rundll32 loaded DLL from suspicious location [F0410], Rundll32.exe executed javascript [F0405], Rundll32.exe process execution via DLL [F0406], Suspicious execution using RunDLL32 [B0409]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1085",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "External network connection from rundll32.exe started from unpopular process [A0504], Internal network connection from rundll32.exe started from unpopular process [A0504a], rundll32 executed under different name [D0408], Rundll32 loaded DLL from suspicious location [F0410], Rundll32.exe executed javascript [F0405], Rundll32.exe process execution via DLL [F0406], Suspicious execution using RunDLL32 [B0409]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1083",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "File and directory discovery via PowerShell [C1109a], File and directory discovery via PowerShell [C1109b], File and Directory Discovery [F1101]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1042",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "File association for execution changed by unpopular process [A0141]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1045",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "File CSIDL_X has been written [C0305], Unpopular process executed from [ Rar / 7zip ] sfx [D0416]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1222",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "File permissions modification attempt via PowerShell [C0302a], File permissions modification attempt via PowerShell [C0302b]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1100",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Generic Apache backdoor activity - child process [F0402], Generic IIS backdoor activity - child process [F0403], Perl backdoor activity - child process [F0400], PHP backdoor activity - child process [F0404], Python backdoor activity - child process [F0401]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1100",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Generic Apache backdoor activity - child process [F0402], Generic IIS backdoor activity - child process [F0403], Perl backdoor activity - child process [F0400], PHP backdoor activity - child process [F0404], Python backdoor activity - child process [F0401]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "HTTP request from Windows Installer (msiexec) [A0514], LSASS loaded suspicious DLL [B0408], Network connection from Windows Installer (msiexec) [A0512], Reputable process loaded suspicious DLL [B0406b], Suspicious DLL loaded [B0407], Trusted process loaded suspicious DLL [B0406a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "HTTP request from Windows Installer (msiexec) [A0514], LSASS loaded suspicious DLL [B0408], Network connection from Windows Installer (msiexec) [A0512], Reputable process loaded suspicious DLL [B0406b], Suspicious DLL loaded [B0407], Trusted process loaded suspicious DLL [B0406a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Image File Execution Options Debugger registry was modified [A0203]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Image File Execution Options Debugger registry was modified [A0203]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "Image File Execution Options Debugger registry was modified [A0203]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "Injection from unpopular process [F0415], Injection into browser process [F0416], Injection into email client process [F0417], Injection into file manager process [F0418], Injection into IM process [F0419], Injection into LSASS process - credential dumping [F0412], Injection into system process [F0413], Injection into trusted process [F0414]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Injection from unpopular process [F0415], Injection into browser process [F0416], Injection into email client process [F0417], Injection into file manager process [F0418], Injection into IM process [F0419], Injection into LSASS process - credential dumping [F0412], Injection into system process [F0413], Injection into trusted process [F0414]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "Legacy Scheduled task file written/modified [A0138], Scheduling task on system start / logon [B0101], Unpopular process executed from Scheduled Task [F0411]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Legacy Scheduled task file written/modified [A0138], Scheduling task on system start / logon [B0101], Unpopular process executed from Scheduled Task [F0411]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Legacy Scheduled task file written/modified [A0138], Scheduling task on system start / logon [B0101], Unpopular process executed from Scheduled Task [F0411]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1177",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "LSA registry entry was modified by unpopular process [A0204], LSASS loaded suspicious DLL [B0408]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1177",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "LSA registry entry was modified by unpopular process [A0204], LSASS loaded suspicious DLL [B0408]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "LSASS loaded suspicious DLL [B0408], Reputable process loaded suspicious DLL [B0406b], Suspicious DLL loaded [B0407], Trusted process loaded suspicious DLL [B0406a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "LSASS loaded suspicious DLL [B0408], Reputable process loaded suspicious DLL [B0406b], Suspicious DLL loaded [B0407], Trusted process loaded suspicious DLL [B0406a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "LSASS loaded suspicious DLL [B0408], Reputable process loaded suspicious DLL [B0406b], Suspicious DLL loaded [B0407], Trusted process loaded suspicious DLL [B0406a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1073",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "LSASS loaded suspicious DLL [B0408], Reputable process loaded suspicious DLL [B0406b], Suspicious DLL loaded [B0407], Trusted process loaded suspicious DLL [B0406a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1031",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Management of the services from commandline [B0403], Service installation or modification [B0402]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1035",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "Management of the services from commandline [B0403], Remote execution using PsExec [B0901], Service execution via PowerShell [C0405a], Service execution via PowerShell [C0405b], Service installation or modification [B0402], Silent execution of PsExec [B0903], Suspicious service executed [B0902]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1050",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Management of the services from commandline [B0403], New service creation attempt via PowerShell [C0406a], New service creation attempt via PowerShell [C0406b], Service installation or modification [B0402]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1050",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "Management of the services from commandline [B0403], New service creation attempt via PowerShell [C0406a], New service creation attempt via PowerShell [C0406b], Service installation or modification [B0402]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1191",
+			"tactic": "defense-evasion",
+			"score": 4,
+			"color": "",
+			"comment": "Microsoft Connection Manager Profile Installer was executed [A0421]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1191",
+			"tactic": "execution",
+			"score": 4,
+			"color": "",
+			"comment": "Microsoft Connection Manager Profile Installer was executed [A0421]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1137",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Microsoft Office Addins registry entry was modified by unpopular process [A0800], Microsoft Office Test registry entry was modified [A0801], Microsoft Office Word or Excel default template created/modified [A0803], Microsoft Outlook mapi32.dll registry modified by unpopular process [A0802]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "lateral-movement",
+			"score": 0,
+			"color": "",
+			"comment": "MPR (Multiple Provider Router) registry was modified [A0129]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "MPR (Multiple Provider Router) registry was modified [A0129]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "defense-evasion",
+			"score": 4,
+			"color": "",
+			"comment": "MS Office application has executed bitsadmin [A0805]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "persistence",
+			"score": 4,
+			"color": "",
+			"comment": "MS Office application has executed bitsadmin [A0805]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "MSBuild.exe from .NET Framework was executed [A0420]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "MSBuild.exe from .NET Framework was executed [A0420]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1170",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "Mshta.exe executed process [A0404]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1170",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "Mshta.exe executed process [A0404]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1188",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "Network communication through port typical for TOR [B0503], Tor2Web service connection [A0507]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1126",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Network share connection removal via PowerShell [C0501a], Network share connection removal via PowerShell [C0501b]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1086",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "PowerShell executed under different name [D0411], PowerShell executed with long cmdline [D0415], PowerShell ExecutionPolicy registry changed [A0205], PowerShell profile file for all users on all hosts was modified [A0117], PowerShell profile file for all users on current host was modified [A0118], PowerShell profile file for current user on current host was modified [A0120], PowerShell profile for current user on all hosts was modified [A0119], PowerShell suspicious activity executed - EncodedCommand [D0414], PowerShell suspicious activity executed [D0412], PowerShell suspicious activity executed [D0413], PowerShell with command line Microsoft Exchange Transport Agent install [A0143], Powershell.exe creates external network connection [A0502b], Powershell.exe creates internal network connection [A0502a], Powershell.exe executed unpopular process [A0408]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1054",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "PowerShell module logging modified [A0206], PowerShell registry shell path modified [A0208], PowerShell script block logging modified [A0207], PowerShell transcription modified [A0209], Process creation command line audit disabled [A0200], Security Options: Clear pagefile on shutdown enabled [A0211a]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Process discovery via PowerShell [C1107a], Process discovery via PowerShell [C1107b], Process Discovery [F1103], Process Hacker application has been executed [C0402]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1117",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "Process regsvr32.exe creates network connection [A0503], Regsvr32.exe executed script process [A0413]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1117",
+			"tactic": "execution",
+			"score": 0,
+			"color": "",
+			"comment": "Process regsvr32.exe creates network connection [A0503], Regsvr32.exe executed script process [A0413]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1075",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1081",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1097",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1101",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423], SecurityProviders registry was modified [A0125]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1145",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1178",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1207",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Process with mimikatz-like command line parameters executed [A0422], Process with mimikatz-like executable metadata executed [A0423]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Query Registry - local [F1104], Query Registry - remote [F1105], Query registry via PowerShell [C1102a], Query registry via PowerShell [C1102b]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1016",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Querying IP info [B0504], System network configuration discovery via PowerShell [C1103a], System network configuration discovery via PowerShell [C1103b], System Network Configuration Discovery [F1108a], System Network Configuration Discovery [F1108b], System Network Configuration Discovery [F1108c]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1002",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "RAR encrypts and deletes files [B0601]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1076",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "Remote Desktop ClxDllPath registry modified [A0900], Remote Desktop listening port was modified [A0903], Remote Desktop TestDVCPlugin registry modified [A0901], Terminal Server autostart registry was modified [A0128], Terminal Server remote connection was enabled [A0902]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1077",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "Remote execution using PsExec [B0901], Silent execution of PsExec [B0903]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1018",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Remote system discovery via PowerShell [C1104a], Remote system discovery via PowerShell [C1104b], Remote System Discovery [F1106]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1122",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "ShellIconOverlayIdentifiers registry modified by unpopular process [A0113], Windows Explorer ShellServiceObjects registry entry was modified [A0114]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1122",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "ShellIconOverlayIdentifiers registry modified by unpopular process [A0113], Windows Explorer ShellServiceObjects registry entry was modified [A0114]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1023",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "Suspicious desktop link creation [B0302]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "System Information Discovery [F1107]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1049",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "System network connections discovery via PowerShell [C1106a], System network connections discovery via PowerShell [C1106b], System Network Connections Discovery [F1111]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1033",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "System Owner / User Discovery [F1109], System owner/user discovery via PowerShell [C1105a], System owner/user discovery via PowerShell [C1105b]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1007",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "System service discovery via PowerShell [C1101a], System service discovery via PowerShell [C1101b], System Service Discovery [F1110]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1088",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "UAC bypass registry modifications [D0217]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1088",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "UAC bypass registry modifications [D0217]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1071",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "Unpopular process connects to email server ( SMTP ) [D0521], Unpopular process made suspicious http query [D0519]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1102",
+			"tactic": "command-and-control",
+			"score": 4,
+			"color": "",
+			"comment": "Unpopular process made http query to pastebin.com [D0520]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1102",
+			"tactic": "defense-evasion",
+			"score": 4,
+			"color": "",
+			"comment": "Unpopular process made http query to pastebin.com [D0520]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "User/group management from commandline [B1003]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1068",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "Werfault launched process with high privilege [D0431]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1158",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Windows Explorer hide extensions for known file types enabled [A0222], Windows Explorer show hidden files disabled [A0221]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1158",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Windows Explorer hide extensions for known file types enabled [A0222], Windows Explorer show hidden files disabled [A0221]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Windows Subsystem for Linux enabled [F0200]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1202",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Windows Subsystem for Linux enabled [F0200]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1004",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Winlogon autostart registry was modified [A0134], Winlogon Notify registration [B0102]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1028",
+			"tactic": "execution",
+			"score": 4,
+			"color": "",
+			"comment": "WinRM (Remote Powershell) service set to Automatic start [D0216]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1028",
+			"tactic": "lateral-movement",
+			"score": 4,
+			"color": "",
+			"comment": "WinRM (Remote Powershell) service set to Automatic start [D0216]",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1155",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1155",
+			"tactic": "lateral-movement",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1092",
+			"tactic": "command-and-control",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1500",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1223",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1223",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1132",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1001",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1483",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1157",
+			"tactic": "persistence",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1157",
+			"tactic": "privilege-escalation",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1173",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1129",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1212",
+			"tactic": "credential-access",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1211",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1210",
+			"tactic": "lateral-movement",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1181",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1181",
+			"tactic": "privilege-escalation",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1008",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1044",
+			"tactic": "persistence",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1044",
+			"tactic": "privilege-escalation",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1187",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1179",
+			"tactic": "persistence",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1179",
+			"tactic": "privilege-escalation",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1179",
+			"tactic": "credential-access",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1062",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1118",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1118",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1215",
+			"tactic": "persistence",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1171",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1152",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1152",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1152",
+			"tactic": "persistence",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1162",
+			"tactic": "persistence",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1026",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "discovery",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1014",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1153",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1151",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1151",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1192",
+			"tactic": "initial-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1194",
+			"tactic": "initial-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1032",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1019",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1221",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1204",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1220",
+			"tactic": "defense-evasion",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1220",
+			"tactic": "execution",
+			"score": -1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#8ec843",
+			"#8ec843",
+			"#8ec843",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 3
+	},
+	"legendItems": [
+		{
+			"label": "Standard AV(Including ESET)",
+			"color": "#ff6666"
+		},
+		{
+			"label": "Only ESET Endpoint Protection(EES+EDR)",
+			"color": "#8ec843"
+		}
+	],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
